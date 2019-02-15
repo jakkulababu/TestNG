@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+  <parameter name="mbno" value="9986983216"/>
+  <parameter name="mbnoc" value="valid"/>
+  <parameter name="pwd" value="babu1234"/>
+  <parameter name="pwdc" value="valid"/>
+    <classes>
+      <class name="mypack.Sample3"/>
+    </classes>
+  </test>
+  <test name="Test2">
+  <parameter name="mbno" value=""/>
+  <parameter name="mbnoc" value="invalid"/>
+  <parameter name="pwd" value="babu1234"/>
+  <parameter name="pwdc" value="valid"/>
+    <classes>
+      <class name="mypack.Sample3"/>
+    </classes>
+  </test>
+  <test name="Test3">
+  <parameter name="mbno" value="9986"/>
+  <parameter name="mbnoc" value="invalid"/>
+  <parameter name="pwd" value="babu1234"/>
+  <parameter name="pwdc" value="valid"/>
+    <classes>
+      <class name="mypack.Sample3"/>
+    </classes>
+  </test>
+  <test name="Test4">
+  <parameter name="mbno" value="9986983216"/>
+  <parameter name="mbnoc" value="valid"/>
+  <parameter name="pwd" value=""/>
+  <parameter name="pwdc" value="invalid"/>
+    <classes>
+      <class name="mypack.Sample3"/>
+    </classes>
+  </test>
+  <test name="Test5">
+  <parameter name="mbno" value="9986983216"/>
+  <parameter name="mbnoc" value="valid"/>
+  <parameter name="pwd" value="wrong111"/>
+  <parameter name="pwdc" value="invalid"/>
+    <classes>
+      <class name="mypack.Sample3"/>
+    </classes>
+  </test>
+</suite>

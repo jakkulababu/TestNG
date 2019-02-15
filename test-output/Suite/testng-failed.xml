@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="5" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="mypack.Testngtest2">
+        <methods>
+          <include name="validatetitle1"/>
+          <include name="launch"/>
+          <include name="closesite"/>
+          <include name="validatetitle"/>
+        </methods>
+      </class> <!-- mypack.Testngtest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

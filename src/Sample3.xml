@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+    <classes>
+      <class name="mypack.Sample1"/>
+      <class name="mypack.Sample2"/>
+    </classes>
+  </test>
+  <test name="Test2">
+    <classes>
+      <class name="mypack.Sample1"/>
+      <class name="mypack.Sample2"/>
+    </classes>
+  </test>
+</suite>

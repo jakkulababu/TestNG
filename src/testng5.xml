@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="W@SMS Login test">
+    <classes>
+      <class name="mypack.Sample4"/>
+    </classes>
+  </test>
+</suite>

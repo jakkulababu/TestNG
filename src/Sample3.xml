@@ -10,7 +10,6 @@
     <classes>
       <class name="mypack.Sample1"/>
       <class name="mypack.Sample2"/>
-      <class name="mypack.Sample2"/>
-    </classes>
+      </classes>
   </test>
 </suite>

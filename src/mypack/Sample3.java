@@ -87,7 +87,7 @@ public class Sample3
 				File src=driver.getScreenshotAs(OutputType.FILE);
 				File dest=new File(ssname);
 				FileHandler.copy(src, dest);
-				Reporter.log("Login test failed an see");
+				Reporter.log("Login test failed have a look at this issue");
 				String sspath="path"+ssname;
 				String code="<img src=\"file:///"+sspath+"\" alt=\"\"/>";
 				Reporter.log(code);

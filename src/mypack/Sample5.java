@@ -108,7 +108,7 @@ public class Sample5
 					}
 					else 
 					{
-						SimpleDateFormat sf=new SimpleDateFormat("dd-mm-yy-hh-mm-ss");
+						SimpleDateFormat sf=new SimpleDateFormat("dd-MM-yy-hh-mm-ss");
 						Date d=new Date();
 						String ssname=sf.format(d)+".png";
 						File src=driver.getScreenshotAs(OutputType.FILE);
@@ -132,6 +132,5 @@ public class Sample5
 		  public void closesite() 
 		  {
 			driver.quit();  
-		  }	  
-  
+		  }  
 }
